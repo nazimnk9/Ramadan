@@ -66,7 +66,7 @@ const fetchPrayerAPI = async () => {
 
 // Function to update date
 function updateRamadan() {
-    const ramadan1 = new Date(2024, 2, 12, 4, 47, 0, 0);
+    const ramadan1 = new Date(2024, 2, 12, 4, 25, 0, 0);
     const now = Date.now();
     let diff = now - ramadan1.valueOf();
     const oneDay = 60 * 60 * 24 * 1000;
